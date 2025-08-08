@@ -9,10 +9,12 @@ This project performs preprocessing and exploratory data analysis (EDA) on histo
 ├── data/ <br>
 │ ├── adj_close_prices.csv # Cleaned adjusted closing prices <br>
 │ └── volume_data.csv # Cleaned volume data <br>
-├── preprocess_explore_data.ipynb # Jupyter notebook with preprocessing and EDA code <br>
-├── rolling_volatility_plot.png # Plot of 21-day rolling annualized volatility <br>
-├── Financial Data Analysis Report.md # Detailed analysis report <br>
-└── README.md # Project overview (this file) <br>
+├──notebooks <br>
+  |
+  |--preprocess_explore_data.ipynb # Jupyter notebook with preprocessing and EDA code <br>
+  ├── rolling_volatility_plot.png # Plot of 21-day rolling annualized volatility <br>
+  ├── Financial Data Analysis Report.md # Detailed analysis report <br>
+  └── README.md # Project overview (this file) <br>
 
 # Prerequisites
 
